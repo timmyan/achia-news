@@ -19,6 +19,7 @@
     $(function() {
       $.get('https://hung-viet.github.io/achia-news/content.html', function(res) {
         console.log(res);
+        $('.newsboard').html(res);
       });
     });
   </script>
